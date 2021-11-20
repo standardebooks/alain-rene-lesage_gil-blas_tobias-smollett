@@ -29,6 +29,10 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Gil Blas</dc:title>
 		<meta property="file-as" refines="#title">Gil Blas</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="fulltitle">The Adventures of Gil Blas of Santillane</dc:title>
+		<meta property="file-as" refines="#fulltitle">Adventures of Gil Blas of Santillane, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Adventure and adventurers -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Blas, Gil (Fictitious character) -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
@@ -47,20 +51,18 @@
 		<dc:source>https://archive.org/details/adventuresofgilb01lesaiala</dc:source>
 		<dc:source>https://archive.org/details/adventuresofgilb02lesaiala</dc:source>
 		<dc:source>https://archive.org/details/adventuresofgilb03lesaiala</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Gil_Blas</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/alain-rene-lesage_gil-blas_tobias-smollett</meta>
 		<dc:creator id="author">Alain-René Lesage</dc:creator>
 		<meta property="file-as" refines="#author">Lesage, Alain-René</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Alain-Ren%C3%A9_Lesage</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81013473</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Tobias Smollett</dc:contributor>
 		<meta property="file-as" refines="#translator">Smollett, Tobias</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#translator">Tobias George Smollett</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Tobias_Smollett</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n79149073</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
@@ -69,13 +71,12 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Al Haines</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Haines, Al</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
