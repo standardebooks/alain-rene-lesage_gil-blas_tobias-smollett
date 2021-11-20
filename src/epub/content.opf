@@ -35,7 +35,7 @@
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
@@ -44,7 +44,9 @@
 		<dc:source>https://www.gutenberg.org/ebooks/66677</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/66678</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/66679</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<dc:source>https://archive.org/details/adventuresofgilb01lesaiala</dc:source>
+		<dc:source>https://archive.org/details/adventuresofgilb02lesaiala</dc:source>
+		<dc:source>https://archive.org/details/adventuresofgilb03lesaiala</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
