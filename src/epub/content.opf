@@ -51,6 +51,7 @@
 		<dc:source>https://archive.org/details/adventuresofgilb01lesaiala</dc:source>
 		<dc:source>https://archive.org/details/adventuresofgilb02lesaiala</dc:source>
 		<dc:source>https://archive.org/details/adventuresofgilb03lesaiala</dc:source>
+		<meta property="se:production-notes">There is a later PD translation, Malkin's, but it appears to be obscure. There are no scholarly references online, and a conversation with Alexander Pettit at U of North Texas revealed he had not heard of it. Much of it appears identical to Smollett's. Thus we are opting for Smollett's translation, even though it's slightly older.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Gil_Blas</meta>
