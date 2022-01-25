@@ -38,3 +38,7 @@ footer{
 	text-align: justify;
 	text-indent: 0;
 }
+
+[epub|type~="bridgehead"] i{
+	font-style: normal;
+}
