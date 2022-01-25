@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/alain-rene-lesage/gil-blas/tobias-smollett</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-01-25T05:35:53Z</dc:date>
+		<meta property="dcterms:modified">2022-01-25T05:35:53Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -19,7 +19,6 @@
 		<meta property="a11y:certifiedBy">Standard Ebooks</meta>
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
-		<meta property="schema:accessibilityFeature">alternativeText</meta>
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
@@ -40,9 +39,12 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A poor youth encounters picaresque adventures as he travels through 17th century Spain.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Gil Blas&lt;/i&gt; isn’t the first picaresque novel, but it’s one of the genre’s most famous examples; it’s a novel that at one point in history was on the bookshelf of every good reader, and it has been featured in allusions across literature for centuries after its publication between 1715 and 1735.&lt;/p&gt;
+			&lt;p&gt;Gil Blas is the name of a Spanish boy born to a poor stablehand and a chambermaid. He’s educated by his uncle before leaving to attend a university, but on the way his journey is interrupted by a band of robbers, and his picaresque adventures begin. Blas embarks on a series of jobs, challenges, advances, setbacks, romances, and fights on his path through life, ultimately continuing to rise in station thanks to his affability and quick wit. On his way he encounters many different kinds of people, both honest and dishonest, as well as many different social classes. Blas’ series of breezy, episodic adventures give &lt;a href="https://standardebooks.org/ebooks/alain-rene-lesage"&gt;Lesage&lt;/a&gt; an opportunity to satirize every stratus of society, from the poor, to doctors, the clergy, writers and playwrights, the rich, and even royalty.&lt;/p&gt;
+			&lt;p&gt;Though Lesage wrote in French, &lt;i&gt;Gil Blas&lt;/i&gt; is ultimately a Spanish novel in nature: Blas himself is Spanish, and his adventures take place in Spain. The details Lesage wrote into the novel were so accurate that many accused him of lifting from earlier works, like &lt;i&gt;Marcos de Obregón&lt;/i&gt; by Vicente Espinel; some even accuse it of being written by someone else, arguing that no Frenchman could no so much detail about Spanish life and society.&lt;/p&gt;
+			&lt;p&gt;Whatever the case, &lt;i&gt;Gil Blas&lt;/i&gt; was translated by Tobias Smollett in 1748. This translation was so complete that it became the standard translation up to the modern day.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/66677</dc:source>
@@ -54,12 +56,12 @@
 		<meta property="se:production-notes">There is a later PD translation, Malkin's, but it appears to be obscure. There are no scholarly references online, and a conversation with Alexander Pettit at U. of North Texas revealed he had not heard of it. Much of it appears identical to Smollett's. Thus we are opting for Smollett's translation, even though it's slightly older.
 
 		Accent marks on proper names were restored based on names in the Spanish translation:
-		https://www.gutenberg.org/files/50492/50492-h/50492-h.htm
-		https://www.gutenberg.org/cache/epub/52682/pg52682-images.html
-		https://www.gutenberg.org/cache/epub/55796/pg55796-images.html
+		https://www.gutenberg.org/ebooks/50492
+		https://www.gutenberg.org/ebooks/52682
+		https://www.gutenberg.org/ebooks/55796
 		</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">316975</meta>
+		<meta property="se:reading-ease.flesch">64.75</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Gil_Blas</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/alain-rene-lesage_gil-blas_tobias-smollett</meta>
 		<dc:creator id="author">Alain-René Lesage</dc:creator>
