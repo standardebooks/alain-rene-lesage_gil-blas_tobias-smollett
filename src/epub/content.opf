@@ -59,6 +59,8 @@
 		https://www.gutenberg.org/ebooks/50492
 		https://www.gutenberg.org/ebooks/52682
 		https://www.gutenberg.org/ebooks/55796
+
+		SE editors have added quotation marks and paragraph breaks to dialog in order to improve readability.
 		</meta>
 		<meta property="se:word-count">316975</meta>
 		<meta property="se:reading-ease.flesch">64.75</meta>
@@ -95,6 +97,48 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Bob Kenyon</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Kenyon, Bob</meta>
+		<meta property="se:url.homepage" refines="#producer-2">http://www.bobrk.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-2" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-3">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-3">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-3">https://thegriggs.org/david/</meta>
+		<meta property="role" refines="#producer-3" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-3" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-4">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-4">Cheng, Weijia</meta>
+		<meta property="se:url.homepage" refines="#producer-4">http://weijiarhymeswith.asia</meta>
+		<meta property="role" refines="#producer-4" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-4" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-5">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-5">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-5">https://www.brokenandsaved.com</meta>
+		<meta property="role" refines="#producer-5" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-5" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-6">Matt Chan</dc:contributor>
+		<meta property="file-as" refines="#producer-6">Chan, Matt</meta>
+		<meta property="se:name.person.full-name" refines="#producer-6">Matthew Yunho Chan</meta>
+		<meta property="se:url.homepage" refines="#producer-6">https://github.com/thewchan</meta>
+		<meta property="role" refines="#producer-6" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-6" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-7">Evan Hall</dc:contributor>
+		<meta property="file-as" refines="#producer-7">Hall, Evan</meta>
+		<meta property="role" refines="#producer-7" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-7" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-8">François Grandjean</dc:contributor>
+		<meta property="file-as" refines="#producer-8">Grandjean, François</meta>
+		<meta property="role" refines="#producer-8" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-8" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-9">Jason DeCock</dc:contributor>
+		<meta property="file-as" refines="#producer-9">DeCock, Jason</meta>
+		<meta property="role" refines="#producer-9" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-9" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-10">Scott Ridley</dc:contributor>
+		<meta property="file-as" refines="#producer-10">Ridley, Scott</meta>
+		<meta property="role" refines="#producer-10" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-10" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
