@@ -110,7 +110,7 @@
 		<meta property="se:role" refines="#producer-3" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-4">Weijia Cheng</dc:contributor>
 		<meta property="file-as" refines="#producer-4">Cheng, Weijia</meta>
-		<meta property="se:url.homepage" refines="#producer-4">http://weijiarhymeswith.asia</meta>
+		<meta property="se:url.homepage" refines="#producer-4">https://weijiarhymeswith.asia</meta>
 		<meta property="role" refines="#producer-4" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-4" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-5">Vince Rice</dc:contributor>
