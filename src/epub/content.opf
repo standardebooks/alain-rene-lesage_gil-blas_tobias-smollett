@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/alain-rene-lesage/gil-blas/tobias-smollett</dc:identifier>
 		<dc:date>2022-01-25T05:35:53Z</dc:date>
 		<meta property="dcterms:modified">2022-01-25T05:35:53Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -39,7 +40,7 @@
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A poor youth encounters picaresque adventures as he travels through 17th century Spain.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Gil Blas&lt;/i&gt; isn’t the first picaresque novel, but it’s one of the genre’s most famous examples; it’s a novel that at one point in history was on the bookshelf of every good reader, and it has been featured in allusions across literature for centuries after its publication between 1715 and 1735.&lt;/p&gt;
@@ -54,44 +55,37 @@
 		<dc:source>https://archive.org/details/adventuresofgilb01lesaiala</dc:source>
 		<dc:source>https://archive.org/details/adventuresofgilb02lesaiala</dc:source>
 		<dc:source>https://archive.org/details/adventuresofgilb03lesaiala</dc:source>
-		<meta property="se:production-notes">There is a later PD translation, Malkin's, but it appears to be obscure. There are no scholarly references online, and a conversation with Alexander Pettit at U. of North Texas revealed he had not heard of it. Much of it appears identical to Smollett's. Thus we are opting for Smollett's translation, even though it's slightly older.
-
-		Accent marks on proper names were restored based on names in the Spanish translation:
-		https://www.gutenberg.org/ebooks/50492
-		https://www.gutenberg.org/ebooks/52682
-		https://www.gutenberg.org/ebooks/55796
-
-		SE editors have added quotation marks and paragraph breaks to dialog in order to improve readability.
-		</meta>
-		<meta property="se:word-count">315695</meta>
-		<meta property="se:reading-ease.flesch">64.75</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Gil_Blas</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/alain-rene-lesage_gil-blas_tobias-smollett</meta>
+		<meta property="schema:wordCount">315695</meta>
+		<meta property="schema:educationalLevel">64.75</meta>
+		<link href="https://en.wikipedia.org/wiki/Gil_Blas" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/alain-rene-lesage_gil-blas_tobias-smollett" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Alain-René Lesage</dc:creator>
 		<meta property="file-as" refines="#author">Lesage, Alain-René</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Alain-Ren%C3%A9_Lesage</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81013473</meta>
+		<link href="https://en.wikipedia.org/wiki/Alain-Ren%C3%A9_Lesage" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n81013473.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="translator">Tobias Smollett</dc:contributor>
 		<meta property="file-as" refines="#translator">Smollett, Tobias</meta>
-		<meta property="se:name.person.full-name" refines="#translator">Tobias George Smollett</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Tobias_Smollett</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n79149073</meta>
+		<meta property="schema:alternateName" refines="#translator">Tobias George Smollett</meta>
+		<link href="https://en.wikipedia.org/wiki/Tobias_Smollett" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79149073.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Frank Dadd</dc:contributor>
 		<meta property="file-as" refines="#artist">Dadd, Frank</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr97000727</meta>
+		<link href="https://id.loc.gov/authorities/names/nr97000727.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Al Haines</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Haines, Al</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -101,28 +95,28 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Bob Kenyon</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Kenyon, Bob</meta>
-		<meta property="se:url.homepage" refines="#producer-2">http://www.bobrk.com/</meta>
+		<link href="http://www.bobrk.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-3">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-3">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-3">https://thegriggs.org/david/</meta>
+		<link href="https://thegriggs.org/david/" refines="#producer-3" rel="schema:url"/>
 		<meta property="role" refines="#producer-3" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-3" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-4">Weijia Cheng</dc:contributor>
 		<meta property="file-as" refines="#producer-4">Cheng, Weijia</meta>
-		<meta property="se:url.homepage" refines="#producer-4">https://weijiarhymeswith.asia/</meta>
+		<link href="https://weijiarhymeswith.asia/" refines="#producer-4" rel="schema:url"/>
 		<meta property="role" refines="#producer-4" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-4" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-5">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-5">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-5">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-5" rel="schema:url"/>
 		<meta property="role" refines="#producer-5" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-5" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-6">Matt Chan</dc:contributor>
 		<meta property="file-as" refines="#producer-6">Chan, Matt</meta>
-		<meta property="se:name.person.full-name" refines="#producer-6">Matthew Yunho Chan</meta>
-		<meta property="se:url.homepage" refines="#producer-6">https://github.com/thewchan</meta>
+		<meta property="schema:alternateName" refines="#producer-6">Matthew Yunho Chan</meta>
+		<link href="https://github.com/thewchan" refines="#producer-6" rel="schema:url"/>
 		<meta property="role" refines="#producer-6" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-6" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-7">Evan Hall</dc:contributor>
