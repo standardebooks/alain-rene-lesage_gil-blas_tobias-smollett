@@ -33,7 +33,7 @@
 		<meta property="title-type" refines="#title">main</meta>
 		<dc:title id="fulltitle">The Adventures of Gil Blas of Santillane</dc:title>
 		<meta property="file-as" refines="#fulltitle">Adventures of Gil Blas of Santillane, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Adventure and adventurers -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Blas, Gil (Fictitious character) -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
